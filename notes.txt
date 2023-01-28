@@ -1,1 +1,13 @@
 // DEV CAMPER API 
+
+npm init: To add npm
+
+// To install express and dotenv
+npm i express dotenv
+
+// To install dev dependency
+npm i -D nodemon
+
+node scripts/crud/helper-generator.js -name match_team
+node scripts/crud/route-generator.js -name match_team
+node scripts/crud/model-generator.js -name match_team 
